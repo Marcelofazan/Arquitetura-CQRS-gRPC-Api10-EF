@@ -42,12 +42,12 @@ dotnet run --launch-profile https
 docker compose down              
 ```
 URL(s) usadas:
-| Host | URL |
-|-----------|-----------|
-| **API** | https://localhost:7274/swagger/index.html |
-| **gRPC** | https://localhost:7026/ |
-| **RabbitMQ** | http://localhost:15672 |
-| **Server** | http://localhost:5184 |
+| Host | URL | Projeto | 
+|-----------|-----------|-----------|
+| **Server** | http://localhost:5184 | **Infraestrutura** |
+| **API** | https://localhost:7274/swagger/index.html | **API** |
+| **gRPC** | https://localhost:7026/ | **API** |
+| **RabbitMQ** | http://localhost:15672 | **API** |
 
 RabbitMQ por padrão possui para acesso Login: **guest** **Senha: **guest** 
 
