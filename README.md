@@ -1,4 +1,4 @@
-## 🚀 Arquitetura-CQRS-gRPC-Api10-EF-docker
+## 🌐 Arquitetura-CQRS-gRPC-Api10-EF-docker
 Exemplo de projeto com Arquitetura CQRS com comunicação gRPC e MediatR, mensageria RabbitMQ em C# ASP.NET Core 10 com banco de dados Postgres e MongoDB.
 
 #### 📋 O que você vai encontrar neste projeto
@@ -176,7 +176,7 @@ dotnet test Sistema.Reporter.Testes/Sistema.Reporter.Testes.csproj
 Conexão com o Banco de dados 
 - No o Servidor do **Postgres** parado em Serviços, crie uma conexão em porta diferente **mongodb://127.0.0.1:27018/** .
 
-## 🌐 Frontend
+## 📁 Frontend
 #### 🔄 Executar a aplicação 
 
 - Recuperar as dependencias do projeto node_modules .
