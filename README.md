@@ -1,9 +1,6 @@
 ## 🌐 Arquitetura-CQRS-gRPC-Api10-EF
 Exemplo de projeto com Arquitetura CQRS com comunicação gRPC e MediatR, mensageria RabbitMQ em C# ASP.NET Core 10 e React 18 com banco de dados Postgres e MongoDB.
 
-#### 🎨 Aqui está uma demonstração do projeto
-<img width="600" height="350" alt="Consolidadora" src="https://github.com/user-attachments/assets/9e8089c6-43c5-4914-afb2-13b7e07dbd93" />
-
 #### 📋 O que você vai encontrar neste projeto
 | Tecnologia  | Papel Arquitetural | Descrição | 
 |-----------|-----------|-----------|
