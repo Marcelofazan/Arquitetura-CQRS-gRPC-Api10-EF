@@ -169,11 +169,20 @@ npm start
 
 O projeto ira rodar em **localhost:3000**
 
-#### ⚙️ Configuração - Certificados
-- Caso for necessário renovar o certificado SSL 
-```bash 
+#### ⚙️ Configuração Certificado TLS/SSL
+- Limpe os certificados existentes e Gere e confie em um novo certificado local
+```bash
 dotnet dev-certs https --clean
 dotnet dev-certs https --trust
+```
+- Criar pasta e Exporte o certificado como um arquivo físico, a configuração do seu contêiner exigi um caminho direto
+```bash
+mkdir %USERPROFILE%\.dotnet\corefx\cryptography\x509stores\mycerts
+dotnet dev-certs https --trust -ep %USERPROFILE%\.dotnet\corefx\cryptography\x509stores\mycerts\webApi.pfx -p pa55w0rd
+```
+- Conferir se o certificado está na pasta 
+```bash
+C:\Users\[SEU_USUARIO]\.dotnet\corefx\cryptography\x509stores\mycerts
 ```
 
 #### ⚙️ Configuração - RabbitMQ Conflito Portas e Logout 
