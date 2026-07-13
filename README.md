@@ -4,13 +4,12 @@ Exemplo de projeto com Arquitetura CQRS com comunicação gRPC e MediatR, mensag
 #### 📋 O que você vai encontrar neste projeto
 | Tecnologia  | Papel Arquitetural | Descrição | 
 |-----------|-----------|-----------|
+| **CQRS**| Padrão de Projeto | Separação das operações: leituras usam a Query que busca no MongoDB (otimizado para leitura), e escritas usam o Command que persiste no Postgres. |
 | **gRPC** |Adaptador de Entrada / Contrato | Comunicação síncrona de alta performance para chamadas entre serviços externos e a sua API.|
 | **MediatR**| Orquestrador Interno | Biblioteca que implementa o padrão Mediator, roteando Queries (consultas) e Commands (comandos). | 
-| **CQRS**| Padrão de Projeto | Separação das operações: leituras usam a Query que busca no MongoDB (otimizado para leitura), e escritas usam o Command que persiste no Postgres. |
+| **MongoDB** | Adaptador de Leitura | Banco NoSQL altamente otimizado para armazenar as Views desnormalizadas e documentos rápidos para o lado de consulta do CQRS. |
 | **RabbitMQ** | Adaptador de Saída | Message Broker para comunicação assíncrona (Event-Driven) entre microsserviços ou módulos independentes. | 
 | **Postgres (EF Core 10)** | Adaptador de Banco de Dados | Banco relacional ideal para manter a consistência e integridade das escritas do seu domínio. |
-| **MongoDB** | Adaptador de Leitura | Banco NoSQL altamente otimizado para armazenar as Views desnormalizadas e documentos rápidos para o lado de consulta do CQRS. |
-
 
 #### 💬 Requisitos do Projeto
 - Necessário **Docker** instalado.
