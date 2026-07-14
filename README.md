@@ -1,5 +1,5 @@
 ## 🌐 Arquitetura-CQRS-gRPC-Api10
-Exemplo de projeto com Arquitetura CQRS TLS/SSL com comunicação gRPC e MediatR, mensageria RabbitMQ em React 18 e C# ASP.NET Core 10 EF com banco de dados Postgres e MongoDB.
+Exemplo de projeto API com Arquitetura CQRS TLS/SSL com comunicação gRPC e MediatR, mensageria RabbitMQ em React 18 e C# ASP.NET Core 10 EF com banco de dados Postgres e MongoDB.
 
 #### 📋 O que você vai encontrar neste projeto
 | Tecnologia  | Papel Arquitetural | Descrição | 
