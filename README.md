@@ -1,4 +1,4 @@
-## 🌐 Arquitetura-CQRS-gRPC-Api
+## 🌐 Arquitetura-CQRS-gRPC
 Exemplo de projeto de Despesas com Arquitetura CQRS TLS/SSL em React 18 e API com comunicação gRPC, mensageria RabbitMQ e MediatR em C# ASP.NET Core 10 EF com banco de dados Postgres e MongoDB.
 
 #### 📋 O que você vai encontrar neste projeto
